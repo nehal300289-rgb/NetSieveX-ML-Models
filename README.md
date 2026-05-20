@@ -90,33 +90,6 @@ Raw Dataset (85 features, 123,117 rows)
  ── Section 7: Export & SHAP ─────────────────
  └── Serialize top 3 models (.pkl) + generate SHAP background sample
 ```
-
----
- 
-## Selected Features (17)
- 
-After the three-stage feature selection process, the following features were retained:
- 
-| # | Feature | Type |
-|---|---------|------|
-| 1 | `fwd_subflow_bytes` | Numeric |
-| 2 | `fwd_pkts_payload.tot` | Numeric |
-| 3 | `fwd_pkts_payload.avg` | Numeric |
-| 4 | `flow_pkts_payload.avg` | Numeric |
-| 5 | `id.resp_p` | Numeric |
-| 6 | `flow_pkts_payload.std` | Numeric |
-| 7 | `payload_bytes_per_second` | Numeric |
-| 8 | `active.avg` | Numeric |
-| 9 | `active.tot` | Numeric |
-| 10 | `active.min` | Numeric |
-| 11 | `flow_pkts_per_sec` | Numeric |
-| 12 | `flow_iat.avg` | Numeric |
-| 13 | `fwd_last_window_size` | Numeric |
-| 14 | `fwd_pkts_payload.min` | Numeric |
-| 15 | `fwd_header_size_tot` | Numeric |
-| 16 | `service` | Categorical |
-| 17 | `proto` | Categorical |
- 
 ---
 
 ## Results
